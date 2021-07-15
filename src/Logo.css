@@ -1,0 +1,35 @@
+.Anim
+{
+    margin-left: 35%;
+    margin-top: 5%;
+    transition: 3s;
+    animation: updown 2000ms linear infinite alternate;
+}
+@keyframes updown {
+    from
+    {
+        transform: translateY(-40px) rotateZ(0deg);
+    }
+    to
+    {
+        transform: translateY(40px) rotateZ(90deg);
+    }
+}
+.btn-started
+{
+    background-color: white;
+    padding: 15px 40px;
+    border: 1px solid rgb(43, 116, 226);
+    border-radius: 25px;
+    font-size: 18px;
+    color: rgb(43, 116, 226);
+    transition: 500ms;
+    margin-left: 10%;
+    margin-bottom: 200px;
+}
+.btn-started:hover
+{
+    background-color: rgb(43, 168, 226);
+    color: white;
+    cursor: pointer;
+}

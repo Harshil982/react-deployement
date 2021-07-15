@@ -1,0 +1,21 @@
+.flex-content
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgba(42, 165, 83, 0.575);
+    padding: 10px;
+    border-radius: 13px;
+    margin: 2px 20px;
+}
+.flex-content a
+{
+    color: rgb(248, 6, 87);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.flex-content a:hover
+{
+    color: black;
+}
