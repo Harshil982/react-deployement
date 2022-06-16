@@ -1,4 +1,5 @@
 import {Component, React} from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 class Header extends Component
@@ -8,10 +9,10 @@ class Header extends Component
         return(
             <>
                 <div className="flex-content">
-                    <a href="#Home">Home</a>
-                    <a href="#About">About</a>
-                    <a href="#Help">Help</a>
-                    <a href="#Contact">Contact</a>
+                    <Link to="/">Home</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/">Help</Link>
+                    <Link to="/contact">Contact</Link>
                 </div>
             </>
         )
