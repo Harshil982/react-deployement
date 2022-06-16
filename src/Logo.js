@@ -34,7 +34,8 @@ class Logo extends Component
                 <br/>
                 <br/>
                 <button className="btn-started" onClick={this.increamentCount}>Get Started</button>
-                <p style={{fontSize : "45px" , color : "red" , marginLeft : "30%" , backgroundColor : "gold"}}>Get started button clicked {this.state.count} times</p>
+                <p style={{fontSize : "45px" , color : "red"}}>Get started button clicked {this.state.count} times</p>
+                <p style={{fontSize : "45px" , color : "red"}}>Welcome {this.state.name}</p>
             </>
         )
     }
